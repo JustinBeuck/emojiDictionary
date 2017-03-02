@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji Dictionary/DefinitionViewController.swift"
+            timestampString = "510117812.780094"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DefinitionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.birthYearLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117551.795865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Emoji_Dictionary.DefinitionViewController"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117551.798224"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Emoji_Dictionary.DefinitionViewController&gt;"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117551.800702"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Emoji Dictionary/DefinitionViewController.swift"
+            timestampString = "510117812.780094"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DefinitionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.definitionLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117532.339028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.definitionLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117532.340573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Emoji_Dictionary.DefinitionViewController"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117532.342038"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Emoji_Dictionary.DefinitionViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Emoji_Dictionary.DefinitionViewController&gt;"
+                  moduleName = "Emoji Dictionary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinbeuck/swift/Emoji%20Dictionary/Emoji%20Dictionary/DefinitionViewController.swift"
+                  timestampString = "510117532.343601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

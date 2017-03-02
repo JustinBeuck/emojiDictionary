@@ -62,8 +62,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a sample Emoji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sa-s5-k3Z">
-                                <rect key="frame" x="103.5" y="393" width="168" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="BirthYear: 2010" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJY-BZ-wo7">
+                                <rect key="frame" x="103" y="477" width="171" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="Yaz-2e-W27"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Category: Smiley" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVm-pv-TFQ">
+                                <rect key="frame" x="103" y="444" width="162" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="K5u-e9-wRz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BirthYear: 2010" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9so-kr-6KB">
+                                <rect key="frame" x="103" y="477" width="171" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="iuS-ds-6bq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely Church" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sa-s5-k3Z">
+                                <rect key="frame" x="67" y="415" width="242" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="OFJ-yp-nSs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -71,13 +101,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="iVm-pv-TFQ" firstAttribute="centerX" secondItem="mfm-yD-yGr" secondAttribute="centerX" id="4at-m8-bQF"/>
+                            <constraint firstItem="9so-kr-6KB" firstAttribute="top" secondItem="iVm-pv-TFQ" secondAttribute="bottom" constant="12" id="6I8-p3-hbA"/>
                             <constraint firstItem="aDk-JY-R1Q" firstAttribute="top" secondItem="qBI-wY-hga" secondAttribute="bottom" constant="40" id="7rH-3h-zv4"/>
-                            <constraint firstItem="2sa-s5-k3Z" firstAttribute="centerX" secondItem="mfm-yD-yGr" secondAttribute="centerX" id="Few-rX-T7d"/>
+                            <constraint firstItem="mU9-rr-6UU" firstAttribute="top" secondItem="9so-kr-6KB" secondAttribute="bottom" constant="169" id="ICI-Vl-c5f"/>
+                            <constraint firstItem="2sa-s5-k3Z" firstAttribute="top" secondItem="aDk-JY-R1Q" secondAttribute="bottom" constant="72" id="T3X-tq-mSL"/>
                             <constraint firstItem="aDk-JY-R1Q" firstAttribute="centerX" secondItem="mfm-yD-yGr" secondAttribute="centerX" id="Tv2-PF-C6V"/>
-                            <constraint firstItem="2sa-s5-k3Z" firstAttribute="top" secondItem="aDk-JY-R1Q" secondAttribute="bottom" constant="50" id="fCn-hi-ce2"/>
+                            <constraint firstItem="2sa-s5-k3Z" firstAttribute="centerX" secondItem="mfm-yD-yGr" secondAttribute="centerX" id="cbn-ma-6KI"/>
+                            <constraint firstItem="iVm-pv-TFQ" firstAttribute="top" secondItem="2sa-s5-k3Z" secondAttribute="bottom" constant="8" id="kfJ-Wp-wjy"/>
+                            <constraint firstItem="9so-kr-6KB" firstAttribute="centerX" secondItem="mfm-yD-yGr" secondAttribute="centerX" id="l2d-d3-7ip"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="9so-kr-6KB" id="8z2-Gz-I1L"/>
+                        <outlet property="categoryLabel" destination="iVm-pv-TFQ" id="g7H-SK-8Tn"/>
                         <outlet property="definitionLabel" destination="2sa-s5-k3Z" id="YRJ-pD-pYx"/>
                         <outlet property="emojiLabel" destination="aDk-JY-R1Q" id="fnz-jS-xQf"/>
                     </connections>

@@ -10,8 +10,9 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
 
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var birthYearLabel: UILabel!
     @IBOutlet weak var definitionLabel: UILabel!
-    
     @IBOutlet weak var emojiLabel: UILabel!
     
     var emoji = "No Emoji"
@@ -22,7 +23,11 @@ class DefinitionViewController: UIViewController {
         // Do any additional setup after loading the view.
         emojiLabel.text = emoji
         
-        definitionLabel.text = "hello"
+        if emoji == "🌯" {
+            definitionLabel.text = "A cute Hamster!"
+            categoryLabel.text = "Category: Food"
+            birthYearLabel.text = "BirthYear: 2004"
+        }
     }
 
     override func didReceiveMemoryWarning() {
